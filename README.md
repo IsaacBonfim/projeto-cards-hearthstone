@@ -1,24 +1,36 @@
-# project-hearthstone
+# Projecto Cards HearthStone
 
-## Project setup
-```
-npm install
-```
+## :computer: About
+  :construction: In progress
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## :art: Layout
+  :construction: In progress
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## :rocket: How it works
+This project is a front-end application that consumes an api to display its information:
 
-### Lints and fixes files
-```
-npm run lint
-```
+  ### :game_die: Running the web application
+  ```bash
+  # Clone this repository
+  $ git clone git@github.com:IsaacBonfim/projeto-cards-hearthstone.git
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+  # Acess the project folder
+  $ cd projeto-cards-hearthstone
+
+  # install the dependecies
+  $ npm install
+
+  # Run the application
+  $ npm run serve
+
+  # The server will start at port:8080 - go to http://localhost:8080
+  ```
+## :hammer_and_wrench: Tech Stack
+Front-End
+- VUE
+- Tailwind
+
+Status do projeto: :construction: In progress
+
+## :star: Author
+  Isaac Oliveira
