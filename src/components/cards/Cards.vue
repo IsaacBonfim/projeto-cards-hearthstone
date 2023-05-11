@@ -19,17 +19,19 @@ export default {
     }
   },
   created () {
-    fetch('https://us.api.blizzard.com/hearthstone/cards?locale=en_US&access_token=EUJe55AxAWY3riswEdur4BRCIX6PiBO3So')
+    fetch('https://us.api.blizzard.com/hearthstone/cards?locale=pt_BR&access_token=EU88KaLT912k9zWTp7iu2guu1rwJhrtgx1')
       .then(response => response.json())
       .then(data => (this.cards = data.cards))
   }
 }
+
 </script>
 
 <style>
   ul {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
     list-style: none;
     padding: 0;
   }
